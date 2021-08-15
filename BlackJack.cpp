@@ -207,6 +207,9 @@ public:
    virtual bool IsHitting() const;
    void FlipFirstCard();
 };
+House::House(const string &name) : GenericPlayer(name)
+{
+}
 House::~House()
 {
 }
