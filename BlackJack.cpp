@@ -427,7 +427,7 @@ int main()
    }
    vector<string> names;
    string name;
-   for (int i = 0; numPlayers; ++i)
+   for (int i = 0; i< numPlayers; ++i)
    {
       cout << "Enter player name: ";
       cin >> name;
